@@ -1,0 +1,1 @@
+// This is a private route. All the folders and subfolders in this folders are now private and wont be accessible or shown in the browser due to the underscore _ added in the folder name.
