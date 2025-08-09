@@ -1,12 +1,19 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import { resolve } from "path";
 
 export const metadata: Metadata = {
   title: "Product Listing Page",
   description: "All products available on the platform",
 };
 
-export default function productsPage() {
+export default async function productsPage() {
+  await new Promise((resolve) => {
+    setTimeout(() => {
+      resolve("intentional delays");
+    }, 2000);
+  });
+
   return (
     <div>
       <div>
