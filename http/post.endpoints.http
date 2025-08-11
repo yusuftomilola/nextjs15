@@ -1,0 +1,14 @@
+POST http://localhost:3000/api/comments
+Content-Type: application/json
+
+{
+    "text": "Adebayo should be ready by now"
+}
+
+POST http://localhost:3000/api/products
+
+{
+    "name": "Backend Training Program",
+    "description": "A top notch nestjs tutorial class",
+    "amount": 30000
+}

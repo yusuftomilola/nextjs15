@@ -1,0 +1,6 @@
+PATCH http://localhost:3000/api/comments/1
+Content-Type: application/json
+
+{
+    "text": "Elon musk is the founder of tesla"
+}

@@ -1,0 +1,7 @@
+GET http://localhost:3000/api/health
+
+GET http://localhost:3000/api/comments?term=third
+
+GET http://localhost:3000/api/products
+
+GET http://localhost:3000/api/comments/3
